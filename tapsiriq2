@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <title>Tapsiriq2</title>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="sekiller">
+                <img src="dexter.jfif" alt="mehsul 1">
+                <button>Click</button>
+            </div>
+            <div class="aciqlama">
+                <p class="ad">Mehsul 1</p>
+                <p class="qiymet">10 AZN</p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="sekiller">
+                <img src="supernatural.jfif" alt="mehsul 2">
+                <button>Click</button>
+            </div>
+            <div class="aciqlama">
+                <p class="ad">Mehsul 2</p>
+                <p class="qiymet">15 AZN</p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="sekiller">
+                <img src="walkingdead.jfif" alt="mehsul 3" >
+                <button>Click</button>
+            </div>
+            <div class="aciqlama">
+                <div class="ad">Mehsul 3</div>
+                <div class="qiymet">20 AZN</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
+body{
+    background-color: grey;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding: 20px;
+}
+.card{
+    background-color: white;
+    border: 1px;
+    width: 200px;
+    padding: 30px;
+    height: 300px;
+}
+.sekiller{
+    position: relative;
+    border: 1px;
+}
+button{
+    position: absolute;
+    bottom: 5px;
+    right: 1px;
+    background-color: red;
+}
+.aciqlama{
+    display: flex;
+    margin-top: 5px;
+    justify-content: space-between;
+}
+.qiymet{
+    color: green;
+}
